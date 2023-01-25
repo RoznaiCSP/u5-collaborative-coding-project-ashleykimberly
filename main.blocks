@@ -153,4 +153,4 @@ c 2 e e 2 2 2 2 e 2 5 4 2 c 8 .
 . . . f 3 3 5 3 3 5 3 3 f . . . 
 . . . f f f f f f f f f f . . . 
 . . . . . f f . . f f . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"US:cUj^{S?n9,B1*@9Yo"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="I#z^hww#*;sSp{IfWH,W"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"US:cUj^{S?n9,B1*@9Yo"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="I#z^hww#*;sSp{IfWH,W"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="mixer_play_sound" id="sni`;:|Wj@O++u%~_BxW"><field name="sound">music.baDing</field></block></next></block></next></block></next></block></statement></block></xml>

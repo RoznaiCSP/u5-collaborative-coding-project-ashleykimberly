@@ -157,3 +157,4 @@ let girl = sprites.create(img`
     . . . f f f f f f f f f f . . . 
     . . . . . f f . . f f . . . . . 
     `, SpriteKind.Player)
+music.baDing.play()

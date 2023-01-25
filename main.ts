@@ -158,3 +158,4 @@ let girl = sprites.create(img`
     . . . . . f f . . f f . . . . . 
     `, SpriteKind.Player)
 music.baDing.play()
+scene.cameraShake(4, 500)

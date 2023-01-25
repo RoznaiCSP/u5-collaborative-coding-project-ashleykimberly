@@ -136,7 +136,7 @@ c 2 e e 2 2 2 2 e 2 5 4 2 c 8 .
 . . . . . . . c e e e e e e 2 c 
 . . . . . . . . c e 2 2 2 2 c . 
 . . . . . . . . . c c c c c . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"m$Eju,WoP/QUuTP9mkuu"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="fyu01FP1;!?GHN|PZw?S"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="@Qx7#Lm36ZEw2|bK4,_)"><field name="VAR" id="j%_xvNx}HK!}yjpiLss.">girl</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Pu{-6lPt@DnBbU6Gh#PG"><value name="img"><shadow type="screen_image_picker" id="g6,2E47Jdcx!-@GB{CP!"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"m$Eju,WoP/QUuTP9mkuu"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="fyu01FP1;!?GHN|PZw?S"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="xExKY^7/aKqfaTVGTzi+"><field name="VAR" id="j%_xvNx}HK!}yjpiLss.">girl</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="}oEhcQMh/-98C+{E5-,s"><value name="img"><shadow type="screen_image_picker" id="US:cUj^{S?n9,B1*@9Yo"><field name="img">img`
 . . . . . . 5 . 5 . . . . . . . 
 . . . . . f 5 5 5 f f . . . . . 
 . . . . f 1 5 2 5 1 6 f . . . . 
@@ -153,4 +153,4 @@ c 2 e e 2 2 2 2 e 2 5 4 2 c 8 .
 . . . f 3 3 5 3 3 5 3 3 f . . . 
 . . . f f f f f f f f f f . . . 
 . . . . . f f . . f f . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"g6,2E47Jdcx!-@GB{CP!"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="HQ4AI~OrLgiRtFW3CJbc"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"US:cUj^{S?n9,B1*@9Yo"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="I#z^hww#*;sSp{IfWH,W"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>

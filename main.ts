@@ -1,3 +1,6 @@
+function sayCountdown (countdown: number) {
+    return "You have" + " " + countdown + " " + "seconds left"
+}
 // Don't forget to comment your code as you work!
 scene.setBackgroundImage(img`
     dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
@@ -121,7 +124,7 @@ scene.setBackgroundImage(img`
     4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
     4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
     `)
-let cherrys = sprites.create(img`
+let cherrys = sprites.createProjectileFromSide(img`
     . . . . . . . . . . . 6 6 6 6 6 
     . . . . . . . . . 6 6 7 7 7 7 8 
     . . . . . . 8 8 8 7 7 8 8 6 8 8 
@@ -138,7 +141,7 @@ let cherrys = sprites.create(img`
     . . . . . . . c e e e e e e 2 c 
     . . . . . . . . c e 2 2 2 2 c . 
     . . . . . . . . . c c c c c . . 
-    `, SpriteKind.Player)
+    `, 50, 50)
 let girl = sprites.create(img`
     . . . . . . 5 . 5 . . . . . . . 
     . . . . . f 5 5 5 f f . . . . . 
@@ -157,5 +160,18 @@ let girl = sprites.create(img`
     . . . f f f f f f f f f f . . . 
     . . . . . f f . . f f . . . . . 
     `, SpriteKind.Player)
-music.baDing.play()
-scene.cameraShake(4, 500)
+info.setLife(3)
+controller.moveSprite(girl)
+let mySprite = game.askForString("What is your name?")
+info.startCountdown(60)
+let countDown = sayCountdown(info.countdown())
+game.splash(countDown)
+while (info.life() > 0) {
+	
+}
+game.onUpdateInterval(500, function () {
+    if (info.countdown() == 30) {
+        countDown = sayCountdown(info.countdown())
+        game.splash(countDown)
+    }
+})
